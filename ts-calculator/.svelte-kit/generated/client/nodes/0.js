@@ -1,0 +1,3 @@
+import * as universal from "../../../../src/routes/+layout.ts";
+export { universal };
+export { default as component } from "../../../../node_modules/.pnpm/@sveltejs+kit@2.53.4_@svelt_df6a8c10d97be7c27ec652657a1c5629/node_modules/@sveltejs/kit/src/runtime/components/svelte-5/layout.svelte";
