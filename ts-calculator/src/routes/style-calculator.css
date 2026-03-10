@@ -1,0 +1,51 @@
+#display {
+    padding: 16px;
+    padding-top: 50px;
+    font-size: 35px;
+}
+#display #expr-legacy {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+#display #expr {
+    color: black;
+}
+.btns-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.btn {
+    width: 5rem;
+    height: 5rem;
+    flex-basis: 20%;
+    padding: 0;
+    border: none;
+    font-size: 4em;
+    background-color: rgb(231, 231, 235);
+}
+.btn:hover {
+    color: rgb(9, 67, 228);
+}
+.btn:active {
+    background-color: rgb(9, 67, 228);
+    color: black;
+}
+#eql {
+    background-color: rgb(9, 67, 228);
+    color: white;	
+}
+#eql:hover {
+    background-color: rgb(8, 52, 173);
+}
+#switch {
+    font-size: 2.6em;
+}
+
+#unclosed-brackets {
+    font-size: 0.2em;
+    padding: 0;
+    margin: 0;
+}
